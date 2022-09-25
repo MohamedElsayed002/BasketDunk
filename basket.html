@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="basket.css">
+    <title>Basket Scrimba</title>
+</head>
+<body>
+    <div class="main">
+        <div class="home--main">
+            <h1>Home</h1>
+            <h2 id="countZero"></h2>
+            <div class="dunk">
+                <button onclick="dunk1()">+1</button>
+                <button onclick="dunk2()">+2</button>
+                <button onclick="dunk3()">+3</button>
+            </div>
+            <button onclick="resetHome()">Reset</button>
+
+        </div>
+        <div class="guest--main">
+            <h1>Guest</h1>
+            <h2 id="countZeroGuest"></h2>
+            <div class="dunk">
+                <button onclick="dunkGuest1()">+1</button>
+                <button onclick="dunkGuest2()">+2</button>
+                <button onclick="dunkGuest3()">+3</button>
+            </div>
+            <button onclick="resetGuest()">Reset</button>
+
+        </div>
+
+    </div>
+    
+    <script src="basket.js"></script>
+</body>
+</html>
